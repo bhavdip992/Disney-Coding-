@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Viewpager.home_Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/purple_200">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/appbar1"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:navigationIcon="@drawable/ic_home_24"
+                app:title="@string/app_name" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navview1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/nav"
+        tools:openDrawer="start" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/l1">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/View_Pager"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp" />
+
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+            android:id="@+id/worm_dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:dotsColor="@color/md_theme_dark_inversePrimary"
+            app:dotsCornerRadius="8dp"
+            app:dotsSize="16dp"
+            app:dotsSpacing="4dp"
+            app:dotsStrokeColor="@color/md_theme_dark_onBackground"
+            app:dotsStrokeWidth="2dp" />
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

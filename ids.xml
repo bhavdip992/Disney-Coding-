@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="settings" type="id" />
+    <item name="people" type="id" />
+    <item name="myProfile" type="id" />
+    <item name="navview1" type="id" />
+</resources>

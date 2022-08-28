@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="Courses">
+    <item name="Courses">Android</item>
+    <item name="Courses">Java</item>
+    <item name="Courses">Kotlin</item>
+    <item name="Courses">C Language</item>
+    <item name="Courses">C#</item>
+    <item name="Courses">PHP</item>
+    <item name="Courses">Html</item>
+    <item name="Courses">Css</item>
+    <item name="Courses">.Net</item>
+    <item name="Courses">Python</item>
+    <item name="Courses">Ruby</item>
+    <item name="Courses">Java Script</item>
+</string-array>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Disney Coding</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro">intro</string>
+    <string name="role_of_teacher">We encourage students to be curious, solve personally relevant problems and express themselves through creativity.
+As students proceed through our pathway we increasingly shift responsibility to students to formulate their own questions, develop their own solutions and critic their own work.
+</string>
+    <string name="teacher_">
+Teachers have the professional expertise to determine how to best conduct an engaging and relevant class.</string>
+    <string name="about_us">Disney Coding started in 2019 to teach coding for kids and Computer Science to K – 12 kids.
+It is Gujarat, India-based Company. Disney Coding provides training to kids (Grade 1 to 12) on Coding, Robotics, Space Tech, etc. </string>
+    <string name="about_us2">as per INTERNATIONAL STANDARDS: CSTA, ISTE.
+Course curriculum adapted from Google, Microsoft, NASA, MIT etc. So we award certificates of Microsoft, Google And NASA after course completion.</string>
+</resources>
